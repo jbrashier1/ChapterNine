@@ -6,10 +6,10 @@ public class RegularPolygonDriver {
         RegularPolygon triangle = new RegularPolygon();
         System.out.println("The perimeter of object triangle is " + triangle.getPerimeter() + ". The area of object triangle is " + triangle.getArea() + ".\n");
 
-        RegularPolygon pentagon = new RegularPolygon(5, 3.0);
-        System.out.println("The perimeter of object pentagon is " + pentagon.getPerimeter() + ". The area of object pentagon is " + pentagon.getArea() + ".\n");
+        RegularPolygon hexagon = new RegularPolygon(6, 4.0);
+        System.out.println("The perimeter of object hexagon is " + hexagon.getPerimeter() + ". The area of object hexagon is " + hexagon.getArea() + ".\n");
 
-        RegularPolygon decagon = new RegularPolygon(10, 6.5, 4.5, 2);
+        RegularPolygon decagon = new RegularPolygon(10, 4.0, 5.6, 7.8);
         System.out.println("The perimeter of object decagon is " + decagon.getPerimeter() + ". The area of object decagon is " + decagon.getArea() + ".");
 
     }
